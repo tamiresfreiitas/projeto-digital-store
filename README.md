@@ -21,7 +21,7 @@ Projeto de uma loja virtual desenvolvido a partir de um projeto disponibilizado 
 1. Clone este repositório:
 
 ```bash
-git clone https://github.com/tamiresfreitas/projeto-digital-store.git
+git clone https://github.com/tamiresfreiitas/projeto-digital-store.git
 ```
 
 2. Entre na pasta:
