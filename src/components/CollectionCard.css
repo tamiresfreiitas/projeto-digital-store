@@ -1,0 +1,7 @@
+/* tudo em cqw (% da largura do card): selo e botão acompanham o tamanho da imagem */
+.collection-card{position:relative;container-type:inline-size;border-radius:4px;overflow:hidden;width:100%;line-height:0}
+.collection-card img{width:100%;height:auto;display:block}
+.collection-card .off{position:absolute;top:3cqw;left:6cqw;background:#D8F264;color:var(--dark-gray);font-size:max(10px,2.8cqw);font-weight:700;padding:.7cqw 2.4cqw;border-radius:100px;line-height:1.4}
+.collection-card .buy-btn{position:absolute;bottom:5cqw;left:6cqw;background:#fff;color:var(--primary);font-size:max(11px,3.3cqw);font-weight:700;padding:2.4cqw 6.5cqw;border-radius:4px;text-decoration:none;line-height:1.2}
+.collections{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}
+@media(max-width:700px){.collections{grid-template-columns:1fr}}

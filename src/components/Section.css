@@ -1,0 +1,8 @@
+.section{margin-top:48px}
+.section-head{display:flex;align-items:center;margin-bottom:24px}
+.section-head.left{justify-content:space-between}
+.section-head.center{justify-content:center;position:relative}
+.section-head.center .section-link{position:absolute;right:0}
+.section-head h2{font-size:24px;font-weight:700;color:var(--dark-gray-2)}
+.section-link{font-size:18px;color:var(--primary);text-decoration:none}
+@media(max-width:600px){.section{margin-top:32px}.section-head h2{font-size:20px}.section-link{font-size:15px}}

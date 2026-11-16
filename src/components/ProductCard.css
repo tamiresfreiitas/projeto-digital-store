@@ -1,0 +1,16 @@
+.product-card{display:flex;flex-direction:column;gap:8px;text-decoration:none;width:100%;min-width:0}
+.product-card .thumb{position:relative;background:#fff;border-radius:4px;overflow:hidden;width:100%;aspect-ratio:292/321}
+.product-card img{width:100%;height:100%;object-fit:cover;display:block}
+.product-card .name{font-size:16px;color:var(--dark-gray-3);margin-top:-4px}
+.product-card .label{font-size:12px;color:var(--light-gray);margin-top:4px}
+.prices{display:flex;gap:12px;align-items:baseline;flex-wrap:wrap}
+.prices .current{font-size:24px;font-weight:700;color:var(--dark-gray)}
+.prices .old{font-size:24px;color:var(--light-gray);text-decoration:line-through}
+.badge{position:absolute;top:12px;left:12px;background:#D8F264;color:var(--dark-gray);font-size:12px;font-weight:700;padding:4px 10px;border-radius:100px;z-index:1}
+.product-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(292px,100%),1fr));gap:24px}
+@media(max-width:1100px){.product-grid{grid-template-columns:repeat(auto-fill,minmax(220px,1fr))}}
+@media(max-width:600px){
+  .product-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+  .prices .current,.prices .old{font-size:18px}
+  .product-card .name{font-size:14px}
+}
