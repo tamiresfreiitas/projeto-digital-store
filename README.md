@@ -27,7 +27,7 @@ git clone https://github.com/tamiresfreiitas/projeto-digital-store.git
 2. Entre na pasta:
 
 ```bash
-cd digital-store
+cd projeto-digital-store
 ```
 
 3. Instale as dependências:
